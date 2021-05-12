@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+    <title>Submit Service Request</title>
+    <link type="text/css" rel="stylesheet" href="/elegant-aero.css" />
+</head>
+<body style='background-image:URL("chicago_bw.jpg");background-repeat:no-repeat;background-position:center top;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size: 100%;'>
+<p style="margin-bottom:5px"/>
+<h2 class="elegant-aero" style="margin-left:30%;text-align:center;display:inline-block;color:#5E5E5E;background:#FFFFFF">&nbsp;Submit service request report&nbsp;</h2>
+<form action="/requests.html" style="background:#FFFFFF;width:60%;margin:auto"  method="get" class="elegant-aero">
+    <label>
+        <span>Neighbourhood:</span> <input type="text" name="neighbourhood" value="HYDE PARK"/>
+    </label>
+    <label style="font-weight:bold;color:#5E5E5E">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;street_lights <input type="checkbox" name="street_lights" value="1"/>
+        rodents <input type="checkbox" name="rodents" value="1"/>
+        graffiti <input type="checkbox" name="graffiti" value="1"/>
+        potholes <input type="checkbox" name="potholes" value="1"/>
+        sanitation_codes <input type="checkbox" name="sanitation_codes" value="1"/>
+    </label>
+    <label>
+        <span>&nbsp;</span><input type="submit" value="Submit">
+    </label>
+</form>
+<iframe frameBorder="0" name="results_iframe" style="width:100%"/>
+</body>
+</html>
